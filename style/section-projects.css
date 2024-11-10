@@ -1,0 +1,29 @@
+
+.section-projects {
+    max-width: 1920px;
+}
+
+.wrapper-content-projects {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.title-projects {
+    position: relative;
+    width: 130px;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 47px;
+    color: var(--color-font-header);
+    background: url(../img/section-Projects/#.svg);
+}
+
+.title-projects::before {
+    position: absolute;
+    content: "";
+    width: 200px; 
+    border-top: 3px solid var(--color-font-header);
+    left: 150px;
+    top: 25px;
+}
+
